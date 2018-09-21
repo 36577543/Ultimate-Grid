@@ -1,7 +1,7 @@
 /***************************************************
 Ultimate Grid 97 for MFC
 
-  Copyright © The Ultimate Toolbox 2007, All Rights Reserved
+  Copyright ?The Ultimate Toolbox 2007, All Rights Reserved
 
   ODBC Data Source Class
 

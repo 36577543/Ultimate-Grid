@@ -81,7 +81,7 @@ public:
 // Operations
 public:
 
-	// --- In  : szText - the new string to be copied
+	// --- In?: szText - the new string to be copied
 	// --- Out :
 	// --- Returns : TRUE on success
 	// --- Effect : Allocates memory for a new string and copies over the contents of
@@ -89,7 +89,7 @@ public:
     BOOL SetString(LPCTSTR szText);
 
 
-	// --- In  : szText - the new string to be copied
+	// --- In?: szText - the new string to be copied
 	//           nCount - the maximum number of characters to copy over
 	// --- Out :
 	// --- Returns : TRUE on success
@@ -97,21 +97,21 @@ public:
 	//              szValue
    BOOL SetString(LPCTSTR szText, int nCount);
 
-    // --- In  : ch - the character to be added to the current string
+    // --- In?: ch - the character to be added to the current string
 	// --- Out :
 	// --- Returns : TRUE on success
 	// --- Effect : Appends a character onto the end of the string
 	//              m_szText may be changed to point to new memory
 	BOOL Append(TCHAR ch);
 
-    // --- In  : szText - the string to be added to the current string
+    // --- In?: szText - the string to be added to the current string
 	// --- Out :
 	// --- Returns : TRUE on success
 	// --- Effect : Concatenates the contents of szText onto the end of the string
 	//              m_szText may be changed to point to new memory
 	BOOL AddString(LPCTSTR szText);
     
-	// --- In  : szText - the string to be added to the current string
+	// --- In?: szText - the string to be added to the current string
 	//           nCount - the maximum number of characters to add
 	// --- Out :
 	// --- Returns : TRUE on success
@@ -120,51 +120,51 @@ public:
 	//              characters will be added
 	BOOL AddString(LPCTSTR szText, int nCount);
     
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : A pointer to the string buffer
 	// --- Effect : 
 	LPCTSTR GetString() const;
 
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : 
 	// --- Effect : Releases alll memory associated with this object
     void Empty();
 
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : TRUE on success, FALSE otherwise
 	// --- Effect : Strips out multiple spaces and end of line\tab characters.
 	//              m_szText may be changed due to reallocation of memory
     BOOL Strip();
 
-    // --- In  : 
+    // --- In?: 
 	// --- Out :
 	// --- Returns : TRUE on success, FALSE otherwise
 	// --- Effect : Trims excess whitespace off the end of the string
 	BOOL TrimRight();
 
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : TRUE on success, FALSE otherwise
 	// --- Effect : Trims excess whitespace from the beginning and end of the string
     BOOL Trim();
 
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : TRUE on success, FALSE otherwise
 	// --- Effect : Trims excess whitespace from the beginning of the string
     BOOL TrimLeft();
 
-	// --- In  : ch - token delimiter
+	// --- In?: ch - token delimiter
 	// --- Out :
 	// --- Returns : The number of tokens in this string
 	// --- Effect : Returns the number of tokens in the string. The token separator
 	//              is given by chDelimiter.
     UINT NumTokens(TCHAR chDelimiter);
 
-	// --- In  : nIndex - Token index to return
+	// --- In?: nIndex - Token index to return
 	//           chDelimiter - Token delimiter
 	// --- Out : 
 	// --- Returns : Returns a pointer to the required Token, or NULL if none found
@@ -173,19 +173,19 @@ public:
 
 // Attributes
 public:
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : TRUE if string is empty
 	// --- Effect : 
     BOOL IsEmpty() const;
  
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : The length of the string
 	// --- Effect : 
 	UINT GetLength() const;
 
-	// --- In  : nLength - the new length of the string
+	// --- In?: nLength - the new length of the string
 	// --- Out :
 	// --- Returns : TRUE if successful
 	// --- Effect : Sets the minimum length of the string to nLength. If the current 
@@ -194,20 +194,20 @@ public:
 	//              is greater, then the memory is reallocated.
     BOOL SetLength(UINT nLength);
 
-	// --- In  : nGrowBy - the amount to grow the buffer on each overflow
+	// --- In?: nGrowBy - the amount to grow the buffer on each overflow
 	// --- Out :
 	// --- Returns : TRUE if the strings are equal
 	// --- Effect : Sets the amount to grow the buffer on each overflow. This is only used in the
 	//              Append() function.
     void SetGrowBy(UINT nGrowBy);
  
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : The amount that the buffer will be grown each time it overflows (Append() only)
 	// --- Effect : 
 	UINT GetGrowBy() const;
 
-    // --- In  : szText - the string to compare this string with
+    // --- In?: szText - the string to compare this string with
 	//           bCaseSensitive - whether or not the comparison is case sensitive
 	// --- Out :
 	// --- Returns : TRUE if the strings are equal
@@ -217,14 +217,14 @@ public:
 // Operators
 public:
 
-	// --- In  : szText - the new string to be copied
+	// --- In?: szText - the new string to be copied
 	// --- Out :
 	// --- Returns : 
 	// --- Effect : Concatenates the contents of szText onto the end of the string
 	//              m_szText may be changed to point to new memory
     void operator+=(LPCTSTR szText);
  
-	// --- In  : str - the new string to be copied
+	// --- In?: str - the new string to be copied
 	// --- Out :
 	// --- Returns : 
 	// --- Effect : Concatenates the contents of str onto the end of the string
@@ -232,45 +232,45 @@ public:
 	void operator+=(COXQuickString& str);
 
 
-	// --- In  : szValue - the new string to be copied
+	// --- In?: szValue - the new string to be copied
 	// --- Out :
 	// --- Returns : 
 	// --- Effect : Allocates memory for a new string and copies over the contents of
 	//              szValue
     void operator=(LPCTSTR szText);
 
-	// --- In  : str - the new string to be copied
+	// --- In?: str - the new string to be copied
 	// --- Out :
 	// --- Returns : 
 	// --- Effect : Allocates memory for a new string and copies over the contents of
 	//              str
     void operator=(COXQuickString& str);
 
-	// --- In  : szText - the string to compare this string with
+	// --- In?: szText - the string to compare this string with
 	// --- Out :
 	// --- Returns : TRUE if the strings are equal. The comparison is case sensitive
 	// --- Effect : Compares this string with the supplied string
     BOOL operator==(LPCTSTR szText);
 
-	// --- In  : str - the string to compare this string with
+	// --- In?: str - the string to compare this string with
 	// --- Out :
 	// --- Returns : TRUE if the strings are equal. The comparison is case sensitive
 	// --- Effect : Compares this string with the supplied string
     BOOL operator==(COXQuickString& str);
 
-	// --- In  : szText - the string to compare this string with
+	// --- In?: szText - the string to compare this string with
 	// --- Out :
 	// --- Returns : TRUE if the strings are equal. The comparison is case sensitive
 	// --- Effect : Compares this string with the supplied string
     BOOL operator!=(LPCTSTR szText);
 
-	// --- In  : str - the string to compare this string with
+	// --- In?: str - the string to compare this string with
 	// --- Out :
 	// --- Returns : TRUE if the strings are equal. The comparison is case sensitive
 	// --- Effect : Compares this string with the supplied string
     BOOL operator!=(COXQuickString& str);
 
-	// --- In  : 
+	// --- In?: 
 	// --- Out :
 	// --- Returns : A pointer to the string buffer
 	// --- Effect : 
@@ -278,13 +278,13 @@ public:
 
 protected:
 
-	// --- In  : nBufferSize - size of the buffer to allocate.
+	// --- In?: nBufferSize - size of the buffer to allocate.
 	// --- Out :
 	// --- Returns : A TCHAR pointer to the allocated memory block
 	// --- Effect : Allocates memory
     LPTSTR AllocBuffer(UINT nBufferSize);
 
-    // --- In  : 
+    // --- In?: 
 	// --- Out :
 	// --- Returns : 
 	// --- Effect : Initialises member variables to a known state

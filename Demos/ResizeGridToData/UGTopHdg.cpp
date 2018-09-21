@@ -2,7 +2,7 @@
 // 					Class Implementation : CUGTopHdg
 // ==========================================================================
 // Source file : UGTopHdg.cpp
-// Copyright © The Ultimate Toolbox 2007, All Rights Reserved
+// Copyright ?The Ultimate Toolbox 2007, All Rights Reserved
 // ==========================================================================
 
 #include "stdafx.h"

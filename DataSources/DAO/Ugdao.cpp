@@ -1,6 +1,6 @@
 /***************************************************
 Ultimate Grid version 7.2
-Copyright © The Ultimate Toolbox 2007, All Rights Reserved
+Copyright ?The Ultimate Toolbox 2007, All Rights Reserved
 
   DAO Data Source Class
 
