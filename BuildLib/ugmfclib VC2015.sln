@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ugmfclib", "ugmfclib VC2012.vcxproj", "{E269D9EC-F629-47AE-85F2-4C30D6665960}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ugmfclib", "ugmfclib VC2015.vcxproj", "{E269D9EC-F629-47AE-85F2-4C30D6665960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Build DLL", "Build DLL VC2012.vcxproj", "{5C786BC2-6C22-4A5C-9C41-30F49780D966}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Build DLL", "Build DLL VC2015.vcxproj", "{5C786BC2-6C22-4A5C-9C41-30F49780D966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
