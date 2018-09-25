@@ -326,7 +326,7 @@ void COXQuickString::operator+=(COXQuickString& str)
 
 BOOL COXQuickString::Strip()
 {
-    const TCHAR chNBSP = TEXT('?);  // This is character 160, NOT character 32
+    const TCHAR chNBSP = TEXT('?');  // This is character 160, NOT character 32
 
     if (IsEmpty())
         return TRUE;

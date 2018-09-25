@@ -33,7 +33,7 @@ CADOImpDatasource::CADOImpDatasource()
 	m_Command = _T("");		// command to execute
 	m_Filter = _T("");		// filter to be used
 	m_SortOrder = _T("");	// sort order to be used
-	m_sCurRowID	= _T("?);
+	m_sCurRowID	= _T("?");
 
 	m_numCols = -1;			// indicate that the number of columns is unknown
 

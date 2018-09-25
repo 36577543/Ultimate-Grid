@@ -14,9 +14,9 @@
 
 //#define VC_EXTRALEAN		// Exclude rarely-used stuff from Windows headers
 
-#ifndef WINVER 
-#define WINVER 0x0400
-#endif
+//#ifndef WINVER 
+//#define WINVER 0x0400
+//#endif
 
 #include <afxwin.h>         // MFC core and standard components
 #include <afxext.h>         // MFC extensions

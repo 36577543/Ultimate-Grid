@@ -12,9 +12,9 @@
 
 #define VC_EXTRALEAN		// Exclude rarely-used stuff from Windows headers
 
-#ifndef WINVER 
-#define WINVER 0x0400
-#endif
+//#ifndef WINVER 
+//#define WINVER 0x0400
+//#endif
 
 #pragma warning (disable : 4995)	// disable DAO deprecation warnings
 
