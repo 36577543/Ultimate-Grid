@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{04919999-119f-4343-9dd0-7dfec9d90b13}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1a97b17c-b512-4006-bd7a-040d4391ef8f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1abd4d78-c2a5-4716-a2ad-cd29bde6cefa}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Ultimate Grid">
+      <UniqueIdentifier>{8f587fc6-05ca-43da-8eb2-0a3d3d63cc29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid\Source">
+      <UniqueIdentifier>{69c53274-fff3-4890-b249-4b28d50c7da2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTLandLTR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTLandLTRDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTLandLTRView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCUG.cpp">
+      <Filter>Ultimate Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCBType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCell.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCelTyp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCnrBtn.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCTarrw.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCtrl.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDLType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDrgDrp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDrwHnt.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDtaSrc.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGEditBase.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugformat.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\uggdinfo.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGGrid.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGHint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ughscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugLstBox.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMemMan.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMultiS.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugprint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugptrlst.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugsidehd.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGStrOp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugtab.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGTopHdg.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugvscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGXPThemes.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RTLandLTR.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTLandLTR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTLandLTRDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTLandLTRView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCUG.h">
+      <Filter>Ultimate Grid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\RTLandLTR.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RTLandLTRDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\RTLandLTR.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

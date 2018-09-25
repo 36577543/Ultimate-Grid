@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{67C62590-DFBC-48D1-B3CB-F58E8123AD2F}</ProjectGuid>
+    <RootNamespace>GroupingGrid</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Include;..\..\..\CellTypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\Include;..\..\..\CellTypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CellTypes\UGCTafnt.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTAutoSize.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTbutn.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTDropGrid.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTdtp.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\ugctelps.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTExpand.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTLabeled.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTMail.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTMailSort.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTMarquee.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTmfnt.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTNote.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\ugctnotewnd.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTOutlookHeader.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTpie.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTpro1.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTprog.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTRado.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTsarw.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTsldr.cpp" />
+    <ClCompile Include="..\..\..\CellTypes\UGCTSpin.cpp" />
+    <ClCompile Include="..\..\..\Source\UGCBType.cpp" />
+    <ClCompile Include="..\..\..\Source\UGCell.cpp" />
+    <ClCompile Include="..\..\..\Source\UGCelTyp.cpp" />
+    <ClCompile Include="..\..\..\Source\UGCnrBtn.cpp" />
+    <ClCompile Include="..\..\..\Source\UGCTarrw.cpp" />
+    <ClCompile Include="..\..\..\Source\UGCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\UGDLType.cpp" />
+    <ClCompile Include="..\..\..\Source\UGDrgDrp.cpp" />
+    <ClCompile Include="..\..\..\Source\UGDrwHnt.cpp" />
+    <ClCompile Include="..\..\..\Source\UGDtaSrc.cpp" />
+    <ClCompile Include="..\..\..\Source\UGEdit.cpp" />
+    <ClCompile Include="..\..\..\Source\UGEditBase.cpp" />
+    <ClCompile Include="..\..\..\Source\ugformat.cpp" />
+    <ClCompile Include="..\..\..\Source\uggdinfo.cpp" />
+    <ClCompile Include="..\..\..\Source\UGGrid.cpp" />
+    <ClCompile Include="..\..\..\Source\UGHint.cpp" />
+    <ClCompile Include="..\..\..\Source\ughscrol.cpp" />
+    <ClCompile Include="..\..\..\Source\ugLstBox.cpp" />
+    <ClCompile Include="..\..\..\Source\UGMEdit.cpp" />
+    <ClCompile Include="..\..\..\Source\UGMemMan.cpp" />
+    <ClCompile Include="..\..\..\Source\UGMultiS.cpp" />
+    <ClCompile Include="..\..\..\Source\ugprint.cpp" />
+    <ClCompile Include="..\..\..\Source\ugptrlst.cpp" />
+    <ClCompile Include="..\..\..\Source\ugsidehd.cpp" />
+    <ClCompile Include="..\..\..\Source\UGStrOp.cpp" />
+    <ClCompile Include="..\..\..\Source\ugtab.cpp" />
+    <ClCompile Include="..\..\..\Source\UGTopHdg.cpp" />
+    <ClCompile Include="..\..\..\Source\ugvscrol.cpp" />
+    <ClCompile Include="..\..\..\Source\UGXPThemes.cpp" />
+    <ClCompile Include="GroupingGrid.cpp" />
+    <ClCompile Include="GroupingGridDlg.cpp" />
+    <ClCompile Include="MyCUG.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Include\UG64Bit.h" />
+    <ClInclude Include="..\..\..\Include\UGCBType.h" />
+    <ClInclude Include="..\..\..\Include\UGCell.h" />
+    <ClInclude Include="..\..\..\Include\ugceltyp.h" />
+    <ClInclude Include="..\..\..\Include\UGCnrBtn.h" />
+    <ClInclude Include="..\..\..\Include\UGCTarrw.h" />
+    <ClInclude Include="..\..\..\Include\UGCtrl.h" />
+    <ClInclude Include="..\..\..\Include\ugdefine.h" />
+    <ClInclude Include="..\..\..\Include\UGDLType.h" />
+    <ClInclude Include="..\..\..\Include\UGDrgDrp.h" />
+    <ClInclude Include="..\..\..\Include\UGDrwHnt.h" />
+    <ClInclude Include="..\..\..\Include\UGDtaSrc.h" />
+    <ClInclude Include="..\..\..\Include\UGEdit.h" />
+    <ClInclude Include="..\..\..\Include\UGEditBase.h" />
+    <ClInclude Include="..\..\..\Include\ugformat.h" />
+    <ClInclude Include="..\..\..\Include\uggdinfo.h" />
+    <ClInclude Include="..\..\..\Include\UGGrid.h" />
+    <ClInclude Include="..\..\..\Include\UGHint.h" />
+    <ClInclude Include="..\..\..\Include\ughscrol.h" />
+    <ClInclude Include="..\..\..\Include\uglstbox.h" />
+    <ClInclude Include="..\..\..\Include\UGMEdit.h" />
+    <ClInclude Include="..\..\..\Include\UGMemMan.h" />
+    <ClInclude Include="..\..\..\Include\UGMultiS.h" />
+    <ClInclude Include="..\..\..\Include\ugprint.h" />
+    <ClInclude Include="..\..\..\Include\ugptrlst.h" />
+    <ClInclude Include="..\..\..\Include\ugsidehd.h" />
+    <ClInclude Include="..\..\..\Include\UGStrOp.h" />
+    <ClInclude Include="..\..\..\Include\ugstruct.h" />
+    <ClInclude Include="..\..\..\Include\ugtab.h" />
+    <ClInclude Include="..\..\..\Include\UGTopHdg.h" />
+    <ClInclude Include="..\..\..\Include\ugvscrol.h" />
+    <ClInclude Include="..\..\..\Include\ugxpthemes.h" />
+    <ClInclude Include="GroupingGrid.h" />
+    <ClInclude Include="GroupingGridDlg.h" />
+    <ClInclude Include="MyCUG.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GroupingGrid.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GroupingGrid.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GroupingGrid.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

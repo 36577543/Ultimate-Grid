@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{57f97814-c380-4057-a228-94623e8f1c3c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{89c05f41-10a0-4f70-9274-f6a171d9a67a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{de9c11cc-72b4-4ff0-8eb4-06f272cbed98}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Ultimate Grid">
+      <UniqueIdentifier>{39f58a84-6c4a-43da-b155-130d746e30e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid\Source">
+      <UniqueIdentifier>{625a4fd4-42a7-45d1-bc13-756be1df241d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid\DAO Datasource">
+      <UniqueIdentifier>{c14641c0-cfc2-46ac-95b5-f0a398a4974e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAccessDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAccessView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MYSQLDLG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ugaccess.cpp">
+      <Filter>Ultimate Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCBType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCell.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCelTyp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCnrBtn.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCTarrw.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCtrl.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDLType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrgDrp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrwHnt.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDtaSrc.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEditBase.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugformat.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\uggdinfo.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGGrid.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGHint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ughscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugLstBox.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMemMan.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMultiS.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugprint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugptrlst.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugsidehd.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGStrOp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugtab.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGTopHdg.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugvscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGXPThemes.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ugdao.cpp">
+      <Filter>Ultimate Grid\DAO Datasource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyAccess.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAccessDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAccessView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MYSQLDLG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGStrOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ugaccess.h">
+      <Filter>Ultimate Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ugdao.h">
+      <Filter>Ultimate Grid\DAO Datasource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\arrow.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor4.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor5.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MyAccess.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nsresize.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\weresize.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MyAccess.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MyAccessDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="myaccess.txt" />
+    <Text Include="ReadMe.txt" />
+    <Text Include="variant.txt" />
+  </ItemGroup>
+</Project>

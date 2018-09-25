@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f3f071df-aa53-4087-883c-8368c582e99a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a9cacf32-619f-4387-8628-8b700100bdc1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{94efd9f0-bc1d-46ab-b846-fec16a128253}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Ultimate Grid">
+      <UniqueIdentifier>{5d8b62dd-d571-4829-8933-63a60b885dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid\Source">
+      <UniqueIdentifier>{6de24c71-bef1-4e89-953c-2f0a0d88eeeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid\ODBC Datasource">
+      <UniqueIdentifier>{a63ba403-d008-46cd-a77f-b8e3211e342d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="db7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="db7Doc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="db7View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSQLDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mycug.cpp">
+      <Filter>Ultimate Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCBType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCell.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCelTyp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCnrBtn.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCTarrw.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCtrl.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDLType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrgDrp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrwHnt.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDtaSrc.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEditBase.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugformat.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\uggdinfo.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGGrid.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGHint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ughscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugLstBox.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMemMan.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMultiS.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugprint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugptrlst.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugsidehd.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGStrOp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugtab.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGTopHdg.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugvscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGXPThemes.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UGODBC.CPP">
+      <Filter>Ultimate Grid\ODBC Datasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ugrecset.cpp">
+      <Filter>Ultimate Grid\ODBC Datasource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="db7.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="db7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="db7Doc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="db7View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSQLDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mycug.h">
+      <Filter>Ultimate Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UGODBC.H">
+      <Filter>Ultimate Grid\ODBC Datasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ugrecset.h">
+      <Filter>Ultimate Grid\ODBC Datasource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\db7.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\db7Doc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\db7.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

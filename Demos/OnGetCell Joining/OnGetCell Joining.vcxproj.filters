@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b2362639-8b03-43b3-891e-34c0977bf28c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0f1d8e3b-f328-4adf-a2b0-6fb05ea77898}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c6111d17-4377-41ad-a8ad-21544f544019}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Ultimate Grid MFC">
+      <UniqueIdentifier>{79df9a87-598d-4691-84be-c94ac0fe22c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid MFC\Source">
+      <UniqueIdentifier>{1e0b4d56-21f0-4837-ac8c-1b618dcfa2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid MFC\My Cug">
+      <UniqueIdentifier>{e78da998-4434-47fe-b342-94fa7501fd05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnGetCell Joining.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnGetCell JoiningDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnGetCell JoiningView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCBType.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCell.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCelTyp.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCnrBtn.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCTarrw.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCtrl.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDLType.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDrgDrp.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDrwHnt.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDtaSrc.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGEdit.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGEditBase.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugformat.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\uggdinfo.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGGrid.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGHint.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ughscrol.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugLstBox.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMEdit.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMemMan.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMultiS.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugprint.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugptrlst.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugsidehd.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGStrOp.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugtab.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGTopHdg.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugvscrol.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGXPThemes.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mycug.cpp">
+      <Filter>Ultimate Grid MFC\My Cug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OnGetCell Joining.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnGetCell Joining.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnGetCell JoiningDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnGetCell JoiningView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mycug.h">
+      <Filter>Ultimate Grid MFC\My Cug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OnGetCell Joining.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OnGetCell JoiningDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OnGetCell Joining.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

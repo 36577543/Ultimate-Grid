@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0EE4B9EF-9B02-4EC0-A804-4780DEC01CE9}</ProjectGuid>
+    <RootNamespace>XP Theme Demo</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/XP Theme Demo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include;..\..\celltypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/XP Theme Demo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0c09</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comsupp.lib;comsuppwd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/XP Theme Demo.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/XP Theme Demo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/XP Theme Demo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/XP Theme Demo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\include;..\..\celltypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/XP Theme Demo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0c09</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comsupp.lib;comsuppw.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/XP Theme Demo.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/XP Theme Demo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/XP Theme Demo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CellTypes\UGCTafnt.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTAutoSize.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTbutn.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTDropGrid.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTdtp.cpp" />
+    <ClCompile Include="..\..\CellTypes\ugctelps.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTLabeled.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTMarquee.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTmfnt.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTNote.cpp" />
+    <ClCompile Include="..\..\CellTypes\ugctnotewnd.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTpie.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTpro1.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTprog.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTRado.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTsarw.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTsldr.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTSpin.cpp" />
+    <ClCompile Include="..\..\Source\UGCBType.cpp" />
+    <ClCompile Include="..\..\Source\UGCell.cpp" />
+    <ClCompile Include="..\..\Source\UGCelTyp.cpp" />
+    <ClCompile Include="..\..\Source\UGCnrBtn.cpp" />
+    <ClCompile Include="..\..\Source\UGCTarrw.cpp" />
+    <ClCompile Include="..\..\Source\UGCtrl.cpp" />
+    <ClCompile Include="..\..\Source\UGDLType.cpp" />
+    <ClCompile Include="..\..\Source\UGDrgDrp.cpp" />
+    <ClCompile Include="..\..\Source\UGDrwHnt.cpp" />
+    <ClCompile Include="..\..\Source\UGDtaSrc.cpp" />
+    <ClCompile Include="..\..\Source\UGEdit.cpp" />
+    <ClCompile Include="..\..\Source\UGEditBase.cpp" />
+    <ClCompile Include="..\..\Source\ugformat.cpp" />
+    <ClCompile Include="..\..\Source\uggdinfo.cpp" />
+    <ClCompile Include="..\..\Source\UGGrid.cpp" />
+    <ClCompile Include="..\..\Source\UGHint.cpp" />
+    <ClCompile Include="..\..\Source\ughscrol.cpp" />
+    <ClCompile Include="..\..\Source\ugLstBox.cpp" />
+    <ClCompile Include="..\..\Source\UGMEdit.cpp" />
+    <ClCompile Include="..\..\Source\UGMemMan.cpp" />
+    <ClCompile Include="..\..\Source\UGMultiS.cpp" />
+    <ClCompile Include="..\..\Source\ugprint.cpp" />
+    <ClCompile Include="..\..\Source\ugptrlst.cpp" />
+    <ClCompile Include="..\..\Source\ugsidehd.cpp" />
+    <ClCompile Include="..\..\Source\UGStrOp.cpp" />
+    <ClCompile Include="..\..\Source\ugtab.cpp" />
+    <ClCompile Include="..\..\Source\UGTopHdg.cpp" />
+    <ClCompile Include="..\..\Source\ugvscrol.cpp" />
+    <ClCompile Include="..\..\Source\UGXPThemes.cpp" />
+    <ClCompile Include="EditStylesDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="XP Theme Demo.cpp" />
+    <ClCompile Include="XP Theme DemoDoc.cpp" />
+    <ClCompile Include="XP Theme DemoView.cpp" />
+    <ClCompile Include="XPThemeDemoGrid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XP Theme Demo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CellTypes\UGCTafnt.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTAutoSize.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTbutn.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTDropGrid.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTdtp.h" />
+    <ClInclude Include="..\..\CellTypes\ugctelps.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTLabeled.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTMarquee.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTmfnt.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTNote.h" />
+    <ClInclude Include="..\..\CellTypes\ugctnotewnd.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTpie.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTpro1.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTprog.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTRado.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTsarw.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTsldr.h" />
+    <ClInclude Include="..\..\CellTypes\UGCTSpin.h" />
+    <ClInclude Include="EditStylesDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="XP Theme Demo.h" />
+    <ClInclude Include="XP Theme DemoDoc.h" />
+    <ClInclude Include="XP Theme DemoView.h" />
+    <ClInclude Include="XPThemeDemoGrid.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\XP Theme Demo.ico" />
+    <Image Include="res\XP Theme DemoDoc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\XP Theme Demo.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

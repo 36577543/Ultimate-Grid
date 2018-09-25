@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f6a7e097-e83f-4082-9106-dfe93f6728e6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c0d2cf14-dd95-4d7f-afc5-cd2dd7516824}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{3bb2e0dd-61aa-425d-9faf-3d5d7006b836}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Ultimate Grid">
+      <UniqueIdentifier>{2b185fbb-84ec-4e18-b25d-d8ab09e83e4f}</UniqueIdentifier>
+      <Extensions>.cpp, .h</Extensions>
+    </Filter>
+    <Filter Include="Ultimate Grid\Source">
+      <UniqueIdentifier>{a528c68f-e801-477b-bfa2-3ee9966660a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid\CellTypes">
+      <UniqueIdentifier>{d5ab096f-5b37-403b-8f34-0fbe1233cb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Toolbox">
+      <UniqueIdentifier>{ca9d4eb6-5f10-442c-a80c-69ee67df666a}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlookStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlookStyleDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlookStyleView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CellTypeOutlook.cpp">
+      <Filter>Ultimate Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCBType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCell.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCelTyp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCnrBtn.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCTarrw.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGCtrl.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDLType.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDrgDrp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDrwHnt.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGDtaSrc.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGEditBase.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugformat.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\uggdinfo.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGGrid.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGHint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ughscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugLstBox.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMEdit.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMemMan.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGMultiS.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugprint.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugptrlst.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugsidehd.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGStrOp.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugtab.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGTopHdg.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ugvscrol.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UGXPThemes.cpp">
+      <Filter>Ultimate Grid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTafnt.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTAutoSize.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTbutn.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTDropGrid.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTdtp.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\ugctelps.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTExpand.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTLabeled.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTMail.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTMailSort.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTMarquee.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTmfnt.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTNote.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\ugctnotewnd.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTOutlookHeader.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTpie.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTpro1.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTprog.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTRado.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTsarw.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTsldr.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CellTypes\UGCTSpin.cpp">
+      <Filter>Ultimate Grid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\CONVFILE.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\COPYTREE.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\CPYSTDLG.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Crypfile.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\DIR.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\DIRLIST.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\DSTRLIST.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\FILE.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\FILELIST.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Mdccrypt.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\MDELDLG.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\MFCToolBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OX3DTabView.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAdvancedAssert.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAdvancedAssertMail.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAppBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAutoComplete.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAutoListBox.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBackgroundPainter.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBITBUF.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBitmapButton.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBitmapMenu.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBitmapMenuOrganizer.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBrowseColorEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBrowseDirEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBrowseDirEditList.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXButtonAppearanceDlg.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalculatorCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalculatorEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalendar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalendarEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalendarPopup.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCaptionPainter.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXChildFrameState.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXClipPocket.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCMPFL.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXColorPickerButton.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXColorPickerCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXComboPickerCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCOMPR.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXContextHelpDialog.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXContextHelpPropertyPage.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXContextHelpPropertySheet.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolComboBox.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolControlOrganizer.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolToolBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCRCChk.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCsvFile.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDao.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDateTimeCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDckPPg.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDckPSh.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDFlHdr.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Oxdib.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDirDlg.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDlgBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDockTabCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDocTemplateSpy.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDragDockContext.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDragDropCommands.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXEditList.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFileChanger.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFileWatcher.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFileWatchNotifier.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFolderPickerDlg.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFontComboBox.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFontPickerButton.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFrameWndDock.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFullScreenFrame.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXGraphics.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\oxgridedit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXGridHdr.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXGridList.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHashTable.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHistoryCombo.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHistoryCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHookWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHTMLParser.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHyperLinkAction.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXImageListBox.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXImageViewer.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXInstanceManager.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXInteger.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXIntelliMouse.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXIPEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXItemTip.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXItemTipWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXIteratorService.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXLayoutManager.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXListBoxEx.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXListEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMaskedEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMDIFloatWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMenuBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMetaFile.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMonthCalCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMultiComboBox.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXNetBrowseTree.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXNotesEditView.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXOptionTreeCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXParser.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPhysicalEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPhysicalEditEx.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPopupBarCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPreviewDialog.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXProcess.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPropertiesWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPropertyDescriptionPane.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPropertyTree.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXQuickString.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRectTracker.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegExpression.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryItem.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryValFile.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryWatcher.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryWatchNotifier.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXResourceFile.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXResourceLibrary.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRollup.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRoundedButton.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRulerOrganizer.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScript.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScrollTip.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScrollTipOwner.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScrollWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSeparator.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXService.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShape.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShdWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShellFolderTree.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShellNamespaceNavigator.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShellObjectList.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShortcut.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShortcutBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShortkeysOrganizer.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeCtrlBar.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeDlgBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeDockBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeToolBar.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkinnedComboBox.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkinnedSpinCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkinnedTabCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkins.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSound.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSoundCustomizeDlg.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSoundEffectManager.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSoundWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSpinCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplashWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplashWndDIB.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplitterColRowState.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplitterRect.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplitterWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXStatic.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXStaticHyperLink.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXStaticText.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSzMiniDockFrmWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTabClientWnd.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTabView.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTaskbarIcon.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTleBar.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXToolTipCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTrace.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeCal.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeCombo.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeCtrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeEdit.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeHeader.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeItem.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUNC.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUNCStandardActor.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXURL.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUsertl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUUDec.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUxTheme.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXWatchedDir.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\oxwebctrl.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXWorkspaceState.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Oxzoomvw.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Path.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\PATHITER.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\PROGRESS.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\UTBStrOp.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\WATCHBUF.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Xstatus4.cpp">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\XSTRING.CPP">
+      <Filter>Ultimate Toolbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OutlookStyle.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlookStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlookStyleDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlookStyleView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CellTypeOutlook.h">
+      <Filter>Ultimate Grid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmattach.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Flags.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OutlookStyle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OutlookStyleDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbarf.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OutlookStyle.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

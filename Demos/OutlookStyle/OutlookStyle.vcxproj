@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FE7AD8D5-ED3A-441C-98C6-511839BDE5EF}</ProjectGuid>
+    <RootNamespace>OutlookStyle</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/OutlookStyle.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include;..\..\celltypes;..\..\..\..\Ultimate Toolbox\UTB9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/OutlookStyle.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0c09</Culture>
+      <AdditionalIncludeDirectories>..\..\..\..\Ultimate Toolbox\UTB9.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Debug/OutlookStyle.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/OutlookStyle.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/OutlookStyle.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/OutlookStyle.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\include;..\..\celltypes;..\..\..\..\Ultimate Toolbox\UTB9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/OutlookStyle.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0c09</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Release/OutlookStyle.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/OutlookStyle.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/OutlookStyle.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\CONVFILE.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\COPYTREE.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\CPYSTDLG.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Crypfile.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\DIR.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\DIRLIST.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\DSTRLIST.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\FILE.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\FILELIST.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Mdccrypt.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\MDELDLG.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\MFCToolBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OX3DTabView.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAdvancedAssert.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAdvancedAssertMail.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAppBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAutoComplete.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXAutoListBox.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBackgroundPainter.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBITBUF.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBitmapButton.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBitmapMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBitmapMenuOrganizer.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBrowseColorEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBrowseDirEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXBrowseDirEditList.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXButtonAppearanceDlg.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalculatorCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalculatorEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalendar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalendarEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCalendarPopup.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCaptionPainter.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXChildFrameState.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXClipPocket.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCMPFL.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXColorPickerButton.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXColorPickerCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXComboPickerCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCOMPR.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXContextHelpDialog.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXContextHelpPropertyPage.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXContextHelpPropertySheet.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolComboBox.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolControlOrganizer.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCoolToolBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCRCChk.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXCsvFile.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDao.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDateTimeCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDckPPg.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDckPSh.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDFlHdr.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Oxdib.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDirDlg.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDlgBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDockTabCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDocTemplateSpy.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDragDockContext.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXDragDropCommands.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXEditList.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFileChanger.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFileWatcher.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFileWatchNotifier.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFolderPickerDlg.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFontComboBox.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFontPickerButton.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFrameWndDock.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXFullScreenFrame.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXGraphics.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\oxgridedit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXGridHdr.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXGridList.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHashTable.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHistoryCombo.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHistoryCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHookWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHTMLParser.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXHyperLinkAction.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXImageListBox.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXImageViewer.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXInstanceManager.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXInteger.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXIntelliMouse.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXIPEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXItemTip.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXItemTipWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXIteratorService.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXLayoutManager.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXListBoxEx.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXListEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMaskedEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMDIFloatWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMenuBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMetaFile.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMonthCalCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXMultiComboBox.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXNetBrowseTree.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXNotesEditView.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXOptionTreeCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXParser.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPhysicalEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPhysicalEditEx.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPopupBarCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPreviewDialog.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXProcess.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPropertiesWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPropertyDescriptionPane.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXPropertyTree.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXQuickString.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRectTracker.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegExpression.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryItem.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryValFile.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryWatcher.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRegistryWatchNotifier.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXResourceFile.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXResourceLibrary.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRollup.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRoundedButton.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXRulerOrganizer.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScript.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScrollTip.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScrollTipOwner.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXScrollWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSeparator.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXService.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShape.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShdWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShellFolderTree.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShellNamespaceNavigator.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShellObjectList.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShortcut.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShortcutBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXShortkeysOrganizer.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeCtrlBar.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeDlgBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeDockBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSizeToolBar.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkinnedComboBox.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkinnedSpinCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkinnedTabCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSkins.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSound.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSoundCustomizeDlg.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSoundEffectManager.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSoundWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSpinCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplashWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplashWndDIB.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplitterColRowState.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplitterRect.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSplitterWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXStatic.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXStaticHyperLink.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXStaticText.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXSzMiniDockFrmWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTabClientWnd.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTabView.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTaskbarIcon.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTleBar.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXToolTipCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTrace.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeCal.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeCombo.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeCtrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeEdit.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeHeader.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXTreeItem.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUNC.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUNCStandardActor.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXURL.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUsertl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUUDec.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXUxTheme.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXWatchedDir.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\oxwebctrl.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\OXWorkspaceState.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Oxzoomvw.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Path.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\PATHITER.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\PROGRESS.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\UTBStrOp.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\WATCHBUF.CPP" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\Xstatus4.cpp" />
+    <ClCompile Include="..\..\..\..\Ultimate Toolbox\UTB9.2\source\XSTRING.CPP" />
+    <ClCompile Include="..\..\CellTypes\UGCTafnt.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTAutoSize.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTbutn.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTDropGrid.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTdtp.cpp" />
+    <ClCompile Include="..\..\CellTypes\ugctelps.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTExpand.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTLabeled.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTMail.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTMailSort.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTMarquee.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTmfnt.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTNote.cpp" />
+    <ClCompile Include="..\..\CellTypes\ugctnotewnd.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTOutlookHeader.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTpie.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTpro1.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTprog.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTRado.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTsarw.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTsldr.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTSpin.cpp" />
+    <ClCompile Include="..\..\Source\UGCBType.cpp" />
+    <ClCompile Include="..\..\Source\UGCell.cpp" />
+    <ClCompile Include="..\..\Source\UGCelTyp.cpp" />
+    <ClCompile Include="..\..\Source\UGCnrBtn.cpp" />
+    <ClCompile Include="..\..\Source\UGCTarrw.cpp" />
+    <ClCompile Include="..\..\Source\UGCtrl.cpp" />
+    <ClCompile Include="..\..\Source\UGDLType.cpp" />
+    <ClCompile Include="..\..\Source\UGDrgDrp.cpp" />
+    <ClCompile Include="..\..\Source\UGDrwHnt.cpp" />
+    <ClCompile Include="..\..\Source\UGDtaSrc.cpp" />
+    <ClCompile Include="..\..\Source\UGEdit.cpp" />
+    <ClCompile Include="..\..\Source\UGEditBase.cpp" />
+    <ClCompile Include="..\..\Source\ugformat.cpp" />
+    <ClCompile Include="..\..\Source\uggdinfo.cpp" />
+    <ClCompile Include="..\..\Source\UGGrid.cpp" />
+    <ClCompile Include="..\..\Source\UGHint.cpp" />
+    <ClCompile Include="..\..\Source\ughscrol.cpp" />
+    <ClCompile Include="..\..\Source\ugLstBox.cpp" />
+    <ClCompile Include="..\..\Source\UGMEdit.cpp" />
+    <ClCompile Include="..\..\Source\UGMemMan.cpp" />
+    <ClCompile Include="..\..\Source\UGMultiS.cpp" />
+    <ClCompile Include="..\..\Source\ugprint.cpp" />
+    <ClCompile Include="..\..\Source\ugptrlst.cpp" />
+    <ClCompile Include="..\..\Source\ugsidehd.cpp" />
+    <ClCompile Include="..\..\Source\UGStrOp.cpp" />
+    <ClCompile Include="..\..\Source\ugtab.cpp" />
+    <ClCompile Include="..\..\Source\UGTopHdg.cpp" />
+    <ClCompile Include="..\..\Source\ugvscrol.cpp" />
+    <ClCompile Include="..\..\Source\UGXPThemes.cpp" />
+    <ClCompile Include="CellTypeOutlook.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OutlookStyle.cpp" />
+    <ClCompile Include="OutlookStyleDoc.cpp" />
+    <ClCompile Include="OutlookStyleView.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OutlookStyle.rc">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\Ultimate Toolbox\UTB9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\Ultimate Toolbox\UTB9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CellTypeOutlook.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OutlookStyle.h" />
+    <ClInclude Include="OutlookStyleDoc.h" />
+    <ClInclude Include="OutlookStyleView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bmattach.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\Flags.bmp" />
+    <Image Include="res\OutlookStyle.ico" />
+    <Image Include="res\OutlookStyleDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar2.bmp" />
+    <Image Include="res\toolbarf.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OutlookStyle.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

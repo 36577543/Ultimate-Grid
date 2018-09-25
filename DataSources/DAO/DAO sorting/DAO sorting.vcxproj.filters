@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b0ab7d57-9f6f-4520-995b-bf7404e59e7a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{199b4b76-5d01-445d-b401-de39ce9bfadc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7ed60cc6-7cc7-4fba-8a5b-4cd359871954}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Ultimate Grid MFC">
+      <UniqueIdentifier>{42b45ef6-a630-4ba2-bc1f-2fa815a79e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid MFC\Source">
+      <UniqueIdentifier>{9c946282-cba3-4a6f-adc7-6d419445b554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid MFC\My Cug">
+      <UniqueIdentifier>{31b76b0c-205f-46a9-8d3e-73c78ec73f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ultimate Grid MFC\DAO datasource">
+      <UniqueIdentifier>{1ddc8d07-47a4-40cd-bb4b-44fcd432c822}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAO sorting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAO sortingDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAO sortingView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenDatabaseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTsarw.cpp">
+      <Filter>Ultimate Grid MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCBType.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCell.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCelTyp.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCnrBtn.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCTarrw.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCtrl.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDLType.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrgDrp.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrwHnt.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDtaSrc.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEdit.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEditBase.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugformat.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\uggdinfo.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGGrid.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGHint.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ughscrol.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugLstBox.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMEdit.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMemMan.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMultiS.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugprint.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugptrlst.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugsidehd.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGStrOp.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugtab.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGTopHdg.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugvscrol.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGXPThemes.cpp">
+      <Filter>Ultimate Grid MFC\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mycug.cpp">
+      <Filter>Ultimate Grid MFC\My Cug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ugdao.cpp">
+      <Filter>Ultimate Grid MFC\DAO datasource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DAO sorting.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO sorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO sortingDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO sortingView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDatabaseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mycug.h">
+      <Filter>Ultimate Grid MFC\My Cug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ugdao.h">
+      <Filter>Ultimate Grid MFC\DAO datasource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DAO sorting.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DAO sortingDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DAO sorting.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

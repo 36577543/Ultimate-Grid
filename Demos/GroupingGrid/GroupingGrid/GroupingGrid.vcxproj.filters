@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Grid">
+      <UniqueIdentifier>{a2df1882-44af-43e1-b745-59d458353510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CellTypes">
+      <UniqueIdentifier>{4c00d9c2-1467-4103-bd51-966a0410c327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Grid">
+      <UniqueIdentifier>{9841a6ad-7dc1-4265-ba72-5cbab6b846bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GroupingGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupingGridDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCUG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCBType.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCell.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCelTyp.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCnrBtn.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCTarrw.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGCtrl.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDLType.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrgDrp.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDrwHnt.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGDtaSrc.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEdit.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGEditBase.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugformat.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\uggdinfo.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGGrid.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGHint.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ughscrol.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugLstBox.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMEdit.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMemMan.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGMultiS.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugprint.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugptrlst.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugsidehd.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGStrOp.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugtab.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGTopHdg.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ugvscrol.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\UGXPThemes.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTafnt.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTAutoSize.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTbutn.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTDropGrid.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTdtp.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\ugctelps.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTExpand.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTLabeled.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTMail.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTMailSort.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTMarquee.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTmfnt.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTNote.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\ugctnotewnd.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTOutlookHeader.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTpie.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTpro1.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTprog.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTRado.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTsarw.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTsldr.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CellTypes\UGCTSpin.cpp">
+      <Filter>Source Files\CellTypes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GroupingGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupingGridDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCUG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UG64Bit.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGCBType.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGCell.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugceltyp.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGCnrBtn.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGCTarrw.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGCtrl.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugdefine.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGDLType.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGDrgDrp.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGDrwHnt.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGDtaSrc.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGEdit.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGEditBase.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugformat.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\uggdinfo.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGGrid.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGHint.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ughscrol.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\uglstbox.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGMEdit.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGMemMan.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGMultiS.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugprint.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugptrlst.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugsidehd.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGStrOp.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugstruct.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugtab.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\UGTopHdg.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugvscrol.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\ugxpthemes.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GroupingGrid.ico">
+      <Filter>Header Files\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GroupingGrid.rc">
+      <Filter>Header Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GroupingGrid.rc2">
+      <Filter>Header Files\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
