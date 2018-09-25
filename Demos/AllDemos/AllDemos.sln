@@ -9,8 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BindingToArray", "..\Bindin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calendar Demo", "..\Calendar Demo\Calendar Demo.vcxproj", "{16866D5B-48BB-4A12-90FD-A9F172C90BC3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cell types", "..\Cell types\Cell types.vcproj", "{A39469AC-5BA0-4507-BD42-2C46E480403A}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContextSensitiveGrid", "..\ContextSensitiveGrid\ContextSensitiveGrid.vcxproj", "{92EC3193-D25B-4284-9016-91C4AFA6E800}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EditingDemo", "..\EditingDemo\EditingDemo.vcxproj", "{597CCAC3-E7D4-4129-9F2B-46C22530E504}"
@@ -39,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stock Watch", "..\Stock Wat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XP Theme Demo", "..\XP Theme Demo\XP Theme Demo.vcxproj", "{0EE4B9EF-9B02-4EC0-A804-4780DEC01CE9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cell types", "..\CellTypes\Cell types.vcxproj", "{A39469AC-5BA0-4507-BD42-2C46E480403A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,10 +57,6 @@ Global
 		{16866D5B-48BB-4A12-90FD-A9F172C90BC3}.Debug|Win32.Build.0 = Debug|Win32
 		{16866D5B-48BB-4A12-90FD-A9F172C90BC3}.Release|Win32.ActiveCfg = Release|Win32
 		{16866D5B-48BB-4A12-90FD-A9F172C90BC3}.Release|Win32.Build.0 = Release|Win32
-		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Debug|Win32.Build.0 = Debug|Win32
-		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Release|Win32.ActiveCfg = Release|Win32
-		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Release|Win32.Build.0 = Release|Win32
 		{92EC3193-D25B-4284-9016-91C4AFA6E800}.Debug|Win32.ActiveCfg = Debug|Win32
 		{92EC3193-D25B-4284-9016-91C4AFA6E800}.Debug|Win32.Build.0 = Debug|Win32
 		{92EC3193-D25B-4284-9016-91C4AFA6E800}.Release|Win32.ActiveCfg = Release|Win32
@@ -117,6 +113,10 @@ Global
 		{0EE4B9EF-9B02-4EC0-A804-4780DEC01CE9}.Debug|Win32.Build.0 = Debug|Win32
 		{0EE4B9EF-9B02-4EC0-A804-4780DEC01CE9}.Release|Win32.ActiveCfg = Release|Win32
 		{0EE4B9EF-9B02-4EC0-A804-4780DEC01CE9}.Release|Win32.Build.0 = Release|Win32
+		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Debug|Win32.Build.0 = Debug|Win32
+		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Release|Win32.ActiveCfg = Release|Win32
+		{A39469AC-5BA0-4507-BD42-2C46E480403A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

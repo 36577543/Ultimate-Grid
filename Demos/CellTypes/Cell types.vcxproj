@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>BlstcScrl</ProjectName>
-    <ProjectGuid>{67BF53D0-7E5A-42A7-B921-17ECF6164CBD}</ProjectGuid>
-    <RootNamespace>BlstcScrl</RootNamespace>
+    <ProjectGuid>{A39469AC-5BA0-4507-BD42-2C46E480403A}</ProjectGuid>
+    <RootNamespace>Cell types</RootNamespace>
     <Keyword>MFCProj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -21,11 +20,13 @@
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v140</PlatformToolset>
     <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v140</PlatformToolset>
     <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -58,20 +59,20 @@
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TargetEnvironment>Win32</TargetEnvironment>
-      <TypeLibraryName>.\Release/Ex26.tlb</TypeLibraryName>
+      <TypeLibraryName>.\Release/Cell types.tlb</TypeLibraryName>
       <HeaderFileName />
     </Midl>
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\..\include;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\celltypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>.\Release/Ex26.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>.\Release/Cell types.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
       <ObjectFileName>.\Release/</ObjectFileName>
       <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
@@ -83,15 +84,15 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>.\Release/Ex26.exe</OutputFile>
+      <OutputFile>.\Release/Cell types.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <ProgramDatabaseFile>.\Release/Ex26.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>.\Release/Cell types.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Release/Ex26.bsc</OutputFile>
+      <OutputFile>.\Release/Cell types.bsc</OutputFile>
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -100,21 +101,23 @@
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TargetEnvironment>Win32</TargetEnvironment>
-      <TypeLibraryName>.\Debug/Ex26.tlb</TypeLibraryName>
+      <TypeLibraryName>.\Debug/Cell types.tlb</TypeLibraryName>
       <HeaderFileName />
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\include;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\celltypes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>.\Debug/Ex26.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>.\Debug/Cell types.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
       <ObjectFileName>.\Debug/</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
@@ -124,19 +127,35 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>.\Debug/Cell types.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>.\Debug/Ex26.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>.\Debug/Cell types.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Debug/Ex26.bsc</OutputFile>
+      <OutputFile>.\Debug/Cell types.bsc</OutputFile>
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\CellTypes\UGCTafnt.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTbutn.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTdtp.cpp" />
+    <ClCompile Include="..\..\CellTypes\ugctelps.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTLabeled.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTMarquee.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTmfnt.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTNote.cpp" />
+    <ClCompile Include="..\..\CellTypes\ugctnotewnd.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTpie.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTpro1.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTprog.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTRado.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTsarw.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTsldr.cpp" />
+    <ClCompile Include="..\..\CellTypes\UGCTSpin.cpp" />
     <ClCompile Include="..\..\Source\UGCBType.cpp" />
     <ClCompile Include="..\..\Source\UGCell.cpp" />
     <ClCompile Include="..\..\Source\UGCelTyp.cpp" />
@@ -166,34 +185,41 @@
     <ClCompile Include="..\..\Source\UGTopHdg.cpp" />
     <ClCompile Include="..\..\Source\ugvscrol.cpp" />
     <ClCompile Include="..\..\Source\UGXPThemes.cpp" />
-    <ClCompile Include="Ex26.cpp" />
-    <ClCompile Include="Ex26Doc.cpp" />
-    <ClCompile Include="Ex26View.cpp" />
+    <ClCompile Include="Cell types.cpp" />
+    <ClCompile Include="Cell typesDoc.cpp" />
+    <ClCompile Include="Cell typesView.cpp" />
+    <ClCompile Include="CellTypeDemoGrid.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
     <ClCompile Include="MainFrm.cpp" />
-    <ClCompile Include="Mycug.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Ex26.rc" />
+    <ResourceCompile Include="Cell types.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ex26.h" />
-    <ClInclude Include="Ex26Doc.h" />
-    <ClInclude Include="Ex26View.h" />
+    <ClInclude Include="..\..\Include\UGCell.h" />
+    <ClInclude Include="..\..\Include\UGCtrl.h" />
+    <ClInclude Include="Cell types.h" />
+    <ClInclude Include="Cell typesDoc.h" />
+    <ClInclude Include="Cell typesView.h" />
+    <ClInclude Include="CellTypeDemoGrid.h" />
+    <ClInclude Include="ChildFrm.h" />
     <ClInclude Include="MainFrm.h" />
-    <ClInclude Include="Mycug.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="StdAfx.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\Ex26.ico" />
-    <Image Include="res\Ex26Doc.ico" />
+    <Image Include="bitmap2.bmp" />
+    <Image Include="notebitm.bmp" />
+    <Image Include="res\Cell types.ico" />
+    <Image Include="res\Cell typesDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Ex26.rc2" />
+    <None Include="res\Cell types.rc2" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -201,4 +227,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Cell types.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
