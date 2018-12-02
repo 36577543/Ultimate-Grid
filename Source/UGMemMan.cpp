@@ -1117,18 +1117,20 @@ int CUGMem::FindNext(CString *string,int *col,long *row,int flags)
 				if(NULL != m_colInfo->cell) 
 				{
 					// check for match
+					if (m_colInfo->cell->m_cellType == UGCT_CHECKBOX)
+						tempStr = m_colInfo->cell->GetLabelText();
+					else
+						tempStr = m_colInfo->cell->GetText();
 					if(flags&UG_FIND_CASEINSENSITIVE)
 					{
 						if(flags&UG_FIND_PARTIAL)
 						{
-							tempStr = m_colInfo->cell->GetText();
 							tempStr.MakeUpper();
 							if( tempStr.Find(*string) >= 0 )
 								success = TRUE;
 						}
 						else
 						{
-							tempStr = m_colInfo->cell->GetText();
 							if( tempStr.IsEmpty() == 0 )
 							{
 								if( string->CompareNoCase( tempStr ) == 0 )
@@ -1140,13 +1142,11 @@ int CUGMem::FindNext(CString *string,int *col,long *row,int flags)
 					{
 						if(flags&UG_FIND_PARTIAL)
 						{
-							tempStr = m_colInfo->cell->GetText();
 							if( tempStr.Find(*string) >= 0 )
 								success = TRUE;
 						}
 						else
 						{
-							tempStr = m_colInfo->cell->GetText();
 							if( tempStr.IsEmpty() == 0 )
 							{
 								if( string->Compare( tempStr ) == 0 )
